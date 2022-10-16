@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .form{
+         background-color: lightblue;
+         padding-top: 2%;
+         padding-bottom: 2%;
+         padding-left: 1%;
+        }
+        #S{
+            margin-left: 47%;
+            padding: 5px 15px;
+            background: #0095ff;
+            border: 0 none;
+            cursor:pointer;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            transform: scale(1.03);
+            
+        }
+        #H{
+            padding: 5px 15px;
+            background: #0095ff;
+            border: 0 none;
+            cursor:pointer;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            transform: scale(1.03);
+        }
+        
+        .member-position {
+        margin: 0 0 15px;
+        display: block;
+        
+
+        }
+        .fa-stack {
+        position: relative;
+        float: left;
+        margin: 0 10px 0 0;
+        }
+        .address-contact{
+            margin-left: 45%;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="/MAIN/Transport.html" target="_self">
+        <p>For home page click <button id="H" href="/Transport.html">HOME</button></p>
+        <br><br><div class="form">
+           
+                <label for="c.name">                   Name:</label>
+                <input type="text" id="c.name" name="name" placeholder="Enter your Name"><br><br>
+                <label for="mnumber">Mobile:</label>
+                <input type="tel" id="mnumber" name="mobile" placeholder="Mobile number"><br><br>
+                
+                <label for="country">Region</label>
+                <select id="country" name="country">
+                    <option value="dist">ANDHRA</option>
+                    <option value="dist">CHATTISGAHD</option>
+                    <option value="dist">TELANGANA</option>
+                </select>
+            
+        </div>
+        <br><br><input type="submit" value="SUBMIT" id="S">
+    </form>
+            <h3>We are active on: </h3>
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+            <div class="member-info">
+                
+                
+                <div class="address-contact">
+                    <a href="" target="_blank">
+                    <span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a>
+                   
+                    
+                </div>
+                <div class="address-contact">
+                    <span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i></span>
+                </div>
+                <div class="address-contact">
+                    <a href="" target="_blank">
+                    <span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a>
+                </div>
+                
+            </div>
+              
+              
+</body>
+</html>
